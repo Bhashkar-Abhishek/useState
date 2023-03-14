@@ -1,25 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Inputadd from './Assignment1/input'
+import Second from './Assignment2/increase_count'
+import Namechange from './Assignment3/name_change.js'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return(
+    <>
+    <Inputadd/>
+    <Second/>
+    <Namechange/>
+    </>
+  )
+
 }
 
 export default App;
